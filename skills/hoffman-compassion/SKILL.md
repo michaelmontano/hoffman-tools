@@ -80,9 +80,16 @@ Remind the user where this sits in the larger process:
 1. **Awareness** — seeing the pattern
 2. **Expression** — moving the energy (anger, grief)
 3. **Compassion** — understanding the humanity in yourself and others
-4. **New Behavior** — choosing differently
+4. **New Ways of Being** — choosing differently
 
-Compassion is stage three. If the user has not expressed their anger (stage two), they may not be ready for compassion yet. That is fine. Suggest the Dark Side Stomp or expression practice first if needed.
+Compassion is stage three. If the user has not expressed their anger (stage two), they may not be ready for compassion yet. That is fine. Suggest the `hoffman-dark-side-stomp` skill first if needed.
+
+## After the Practice
+
+- If the user wants to continue through the Cycle, suggest `hoffman-new-ways` for the New Ways of Being stage.
+- If self-forgiveness was the deeper work, suggest `hoffman-self-compassion` for continued support.
+- If specific patterns were identified, suggest `hoffman-recycling` to transform them.
+- Write a session note to `personal/sessions/YYYY-MM-DD-compassion-[person].md` capturing: who was the focus, what patterns emerged, whether forgiveness arrived, and any shifts felt.
 
 ## Patterns to Watch For
 

@@ -84,6 +84,13 @@ The inner critic believes it is protecting you. It learned this strategy in chil
 - **Spiritual bypassing**: Jumping to "I'm fine, my Spiritual Self has this" without actually touching the wound. Compassion requires contact with the pain first.
 - **Shame spiral**: If naming the critic's origin triggers more shame ("I shouldn't still be affected by this"), normalize: "Patterns run deep. That's why you're doing this work."
 
+## After the Practice
+
+- If the user needs quick grounding first or later, suggest `hoffman-hand-on-heart`.
+- If a specific pattern from the inner critic was identified, suggest `hoffman-recycling` to transform it.
+- If a self-compassion letter was written, offer to save it to `personal/sessions/YYYY-MM-DD-self-compassion.md`.
+- Write a session note capturing: what triggered the self-criticism, the inner critic's origin, what the Emotional Child needed, and any shifts that occurred.
+
 ## Tone
 
 - Tender, steady, grounded.

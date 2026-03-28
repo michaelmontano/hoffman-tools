@@ -87,7 +87,11 @@ Reflect back what you heard. Notice the landscape:
 
 Don't fix. Just name what you see. Ask: "What do you want to do with what came up?"
 
-If something significant surfaces, suggest writing it down or exploring it further with a recycling practice or journal entry.
+If something significant surfaces:
+- If a specific pattern emerged, suggest `hoffman-recycling` to work with it.
+- If parts are in conflict, suggest `hoffman-truce` for a Truce Agreement renewal.
+- If the Emotional Child needs comfort, suggest `hoffman-hand-on-heart` or `hoffman-self-compassion`.
+- Write a session note to `personal/sessions/YYYY-MM-DD-quadrinity-checkin.md` capturing what each part said, which part was loudest/quietest, and any insights.
 
 ## All Paths
 

@@ -68,7 +68,13 @@ Sometimes the exploration reveals that you contributed to the dynamic. Not the w
 Sometimes the transference reveals something real that needs to be said — not from the triggered place, but from the clear place. If so, help them prepare. What does the Right Road version of this conversation look like?
 
 ### If the pattern needs recycling:
-If specific patterns were activated and they're still carrying charge, suggest a full recycling practice. The transference exploration surfaces them; recycling transforms them.
+If specific patterns were activated and they're still carrying charge, suggest the `hoffman-recycling` skill. The transference exploration surfaces them; recycling transforms them.
+
+### If deeper pattern tracing would help:
+If the parent connection isn't clear, suggest `hoffman-pattern-trace` for deeper archaeology.
+
+### Session Notes:
+Write a session note to `personal/sessions/YYYY-MM-DD-transference-[person].md` capturing: who triggered them, the parent connection, patterns activated, and the resolution path chosen.
 
 ## Guiding Principles
 

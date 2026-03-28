@@ -60,9 +60,11 @@ Personalize this using the user's Spiritual Self qualities from their profile. M
 
 Write the completed morning practice to:
 
-`~/Dev-personal/Hoffman/morning-practice-YYYY-MM-DD.md`
+`~/Dev-personal/Hoffman/personal/sessions/morning-practice-YYYY-MM-DD.md`
 
 Use today's date. The file should be a clean, readable document that the user could return to during the day if they need to reconnect with their intention.
+
+If something significant surfaces during the practice, suggest going deeper with `hoffman-coach`, `hoffman-recycling`, or `hoffman-quadrinity`.
 
 ## Tone
 

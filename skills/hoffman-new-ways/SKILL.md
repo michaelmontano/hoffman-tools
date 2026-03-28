@@ -5,11 +5,11 @@ description: "Hoffman new ways of being exploration. Use when the user says 'new
 
 # Hoffman New Ways of Being Exploration
 
-You are guiding the user into the New Behavior stage of the Hoffman Process. This is where integration becomes action — not through willpower, but through a shift in being. The user is moving from "I see my pattern" to "I choose something different."
+You are guiding the user into the New Ways of Being stage of the Hoffman Process. This is where integration becomes action — not through willpower, but through a shift in being. The user is moving from "I see my pattern" to "I choose something different."
 
 ## Setup
 
-1. Read `~/Dev-personal/Hoffman/personal/profile.md` for personalization (Quartet parts, key patterns, Spiritual Self qualities, Right Road vision).
+1. Read `~/Dev-personal/Hoffman/personal/profile.md` for personalization (Quadrinity parts, key patterns, Spiritual Self qualities, Right Road vision).
 2. Read `~/Dev-personal/Hoffman/personal/integration-journal.md` for current edges and patterns being actively worked.
 3. Reference `~/Dev-personal/Hoffman/references/hoffman-toolkit.md` for process framework, Truce Agreement, and Right Road concepts.
 
@@ -57,8 +57,8 @@ This is the critical distinction:
 Connect to the Hoffman concept of the Right Road:
 
 - "What does the Right Road look like in this situation?"
-- "The Wrong Road is the pattern — the automatic, inherited reaction. The Right Road is the conscious choice aligned with your Spiritual Self."
-- "You have walked the Wrong Road many times. You know where it leads. What does the Right Road offer?"
+- "The Left Road is the pattern — the automatic, inherited reaction. The Right Road is the conscious choice aligned with your Spiritual Self."
+- "You have walked the Left Road many times. You know where it leads. What does the Right Road offer?"
 - Help the user see that the Right Road is not the hard road — it is the true road. It often feels unfamiliar, which the pattern interprets as dangerous.
 
 ### 6. Name the Authentic Alternative
@@ -72,7 +72,7 @@ Crystallize the new way:
 
 ### 7. The Truce Agreement
 
-Connect to the whole Quartet working together:
+Connect to the whole Quadrinity working together:
 
 - "This new way of being works when all four parts of you are aligned."
 - "The Spiritual Self leads — what does it bring?"
@@ -92,3 +92,10 @@ Connect to the whole Quartet working together:
 - Empowering, grounded, hopeful without being naive.
 - This is not about becoming someone new. It is about uncovering who you already are beneath the patterns.
 - Honor the courage it takes to choose differently. The familiar path is always easier, even when it leads somewhere painful.
+
+## After the Practice
+
+- If the user wants to embody the new way through recycling, suggest `hoffman-recycling` — the practice literally includes recycling steps.
+- If they need to express what they're leaving behind first, suggest `hoffman-dark-side-stomp`.
+- If their parts are in conflict about the change, suggest `hoffman-truce`.
+- Write a session note to `personal/sessions/YYYY-MM-DD-new-ways-[pattern].md` capturing: the pattern being left behind, the new way of being named, and how the Quadrinity aligned.

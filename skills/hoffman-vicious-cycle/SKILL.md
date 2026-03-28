@@ -85,7 +85,9 @@ Once the cycle is visible:
 
 - **Name it.** Give the whole cycle a name. "My shutdown spiral." "The performance-approval loop." "The family dinner meltdown chain." Naming gives you power over it.
 - **Pick one link to work on.** You don't have to transform the whole cycle at once. Pick the link where you have the most leverage — often the entry point or the weakest link — and focus your recycling practice there.
-- **Watch for it.** Now that you can see the cycle, you'll start catching it in real time. That's precycling. Each time you catch it a little earlier, the cycle loses power.
+- **Watch for it.** Now that you can see the cycle, you'll start catching it in real time. That's precycling (try the `hoffman-precycling` skill). Each time you catch it a little earlier, the cycle loses power.
+- **Recycle the key link.** Use the `hoffman-recycling` skill to transform the pattern at the weakest link or entry point.
+- **Save the map.** Write the completed cycle map to `personal/sessions/YYYY-MM-DD-vicious-cycle-[name].md` so it can be referenced in future sessions.
 
 ## All Paths
 

@@ -103,9 +103,16 @@ Remind the user where this sits:
 1. **Awareness** — seeing the pattern (already done if they're here)
 2. **Expression** — moving the energy through the body (THIS PRACTICE)
 3. **Compassion** — understanding yourself and others with tenderness
-4. **New Behavior** — choosing differently
+4. **New Ways of Being** — choosing differently
 
-Expression is stage two. It clears the channel so that compassion and new behavior become possible. You cannot think your way to compassion if the anger is still locked in your body.
+Expression is stage two. It clears the channel so that compassion and new ways of being become possible. You cannot think your way to compassion if the anger is still locked in your body.
+
+## After the Practice
+
+- If the user is ready for the next stage, suggest `hoffman-compassion` for Compassion & Forgiveness.
+- If the expression revealed a specific pattern, suggest `hoffman-recycling` to transform it.
+- If the user needs to ground after intense expression, suggest `hoffman-hand-on-heart`.
+- Write a session note to `personal/sessions/YYYY-MM-DD-dark-side-stomp.md` capturing: what was expressed, the pattern or feeling, what was claimed, and what shifted.
 
 ## Patterns to Watch For
 

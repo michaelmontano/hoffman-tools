@@ -81,6 +81,14 @@ A shorter, more portable version for when the full practice isn't possible:
 - Spiritual Self is not a performance. If the user can't feel it, help them find even one quality — one moment when they felt like their truest self.
 - After the practice, suggest they note the date, pattern, and new way of being somewhere they'll see it. Repetition builds the new pathway.
 
+## After the Practice
+
+- Write a session note to `personal/sessions/YYYY-MM-DD-recycling-[pattern].md` capturing: the pattern recycled, parent connection, the situation used, Spiritual Self response, and the new way of being named.
+- If the user needed help identifying the pattern, suggest `hoffman-pattern-trace` for deeper archaeology next time.
+- If the pattern is part of a chain, suggest `hoffman-vicious-cycle` to map the full loop.
+- For ongoing awareness of this pattern, suggest `hoffman-precycling` — catching it before it plays out.
+- If the user's integration journal has an open thread related to this pattern, suggest updating it.
+
 ## All Paths
 
 All file paths are relative to the Hoffman root directory at `~/Dev-personal/Hoffman/`.

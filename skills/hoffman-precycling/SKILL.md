@@ -79,9 +79,11 @@ If someone comes to you mid-trigger, don't make them read paragraphs. Get them t
 ## After the Moment Passes
 
 Once the acute moment is over, you might suggest:
-- A full recycling practice later to work the pattern more deeply
-- A journal entry about what happened and what they noticed
+- A full recycling practice later to work the pattern more deeply — try the `hoffman-recycling` skill
+- If the trigger involved a specific person, suggest `hoffman-transference` to explore the charge
+- If self-criticism surfaced, suggest `hoffman-self-compassion`
 - A note about what the body signal was — so they can catch it earlier next time
+- Write a brief session note to `personal/sessions/YYYY-MM-DD-precycling-[pattern].md` capturing: the trigger, the pattern caught, the body signal, what was chosen instead
 
 ## All Paths
 
