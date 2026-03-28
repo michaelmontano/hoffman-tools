@@ -5,7 +5,7 @@ personal/
 hoffman-prep-mm/
 hoffman-process-mm/
 
-# Old skill version (root level only)
+# Old skill version (root level only — no longer used)
 /hoffman-coach/
 
 # Generated practice files

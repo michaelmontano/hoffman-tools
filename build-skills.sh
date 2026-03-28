@@ -12,21 +12,18 @@ mkdir -p "$DIST_DIR"
 
 echo "Building .skill packages..."
 
-for skill_dir in "$SKILLS_DIR"/hoffman-*/; do
+for skill_dir in "$SKILLS_DIR"/*/; do
   skill_name=$(basename "$skill_dir")
-  output="$DIST_DIR/$skill_name.skill"
+  output="$DIST_DIR/hoffman-$skill_name.skill"
 
   # Each .skill is a zip of the skill directory contents (SKILL.md at root)
   (cd "$skill_dir" && zip -q "$output" SKILL.md)
 
-  echo "  ✓ $skill_name.skill"
+  echo "  ✓ hoffman-$skill_name.skill"
 done
 
 echo ""
-echo "Built $(ls "$DIST_DIR"/*.skill | wc -l | tr -d ' ') skills to dist/"
+echo "Built $(ls "$DIST_DIR"/*.skill 2>/dev/null | wc -l | tr -d ' ') skills to dist/"
 echo ""
 echo "To install in Cowork:"
 echo "  Settings → Skills → Install from file → select each .skill from dist/"
-echo ""
-echo "To install symlinks for Claude Code (run once):"
-echo "  ./install-code.sh"

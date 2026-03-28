@@ -1,28 +1,23 @@
 #!/bin/bash
-# Install Hoffman skills as symlinks in ~/.claude/skills/
-# Safe to re-run — skips skills that are already linked
+# Install the Hoffman plugin for Claude Code
+# Creates a symlink so Claude Code discovers the plugin automatically
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-SKILLS_DIR="$SCRIPT_DIR/skills"
-TARGET_DIR="$HOME/.claude/skills"
+PLUGIN_DIR="$HOME/.claude/plugins"
+LINK="$PLUGIN_DIR/hoffman"
 
-mkdir -p "$TARGET_DIR"
+mkdir -p "$PLUGIN_DIR"
 
-echo "Installing Hoffman skills to $TARGET_DIR..."
-
-for skill_dir in "$SKILLS_DIR"/hoffman-*/; do
-  skill_name=$(basename "$skill_dir")
-  link="$TARGET_DIR/$skill_name"
-
-  if [ -L "$link" ]; then
-    echo "  ~ $skill_name (already linked)"
-  elif [ -e "$link" ]; then
-    echo "  ! $skill_name (exists but not a symlink — skipping)"
-  else
-    ln -s "$skill_dir" "$link"
-    echo "  ✓ $skill_name"
-  fi
-done
+if [ -L "$LINK" ]; then
+  echo "  ~ hoffman plugin already linked → $(readlink "$LINK")"
+  echo "  To reinstall, remove it first: rm $LINK"
+elif [ -e "$LINK" ]; then
+  echo "  ! $LINK exists but is not a symlink — skipping"
+else
+  ln -s "$SCRIPT_DIR" "$LINK"
+  echo "  ✓ Installed hoffman plugin → $SCRIPT_DIR"
+fi
 
 echo ""
-echo "Done. Start a new Claude Code session to pick up the skills."
+echo "Start a new Claude Code session to pick up the plugin."
+echo "Skills are invoked as /hoffman:coach, /hoffman:recycling, etc."

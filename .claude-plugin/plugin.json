@@ -1,0 +1,12 @@
+{
+  "name": "hoffman",
+  "version": "1.0.0",
+  "description": "Hoffman Process integration toolkit — 19 skills for ongoing personal growth work including a coach orchestrator, recycling, transference, quadrinity, and daily practices",
+  "author": {
+    "name": "Michael Montano",
+    "url": "https://github.com/michaelmontano"
+  },
+  "repository": "https://github.com/michaelmontano/hoffman-tools",
+  "license": "MIT",
+  "keywords": ["hoffman", "personal-growth", "integration", "coaching", "patterns"]
+}

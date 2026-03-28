@@ -1,8 +1,8 @@
-# Hoffman Process Integration Skills for Claude
+# Hoffman Process Integration Plugin for Claude
 
-A set of 19 AI-powered skills for integrating the [Hoffman Process](https://www.hoffmaninstitute.org/) into daily life, built for [Claude Code](https://claude.ai/code) and Claude's skill system.
+A plugin with 19 AI-powered skills for integrating the [Hoffman Process](https://www.hoffmaninstitute.org/) into daily life, built for [Claude Code](https://claude.ai/code).
 
-If you've completed the Hoffman Process, these skills give you a deeply personalized integration companion — a coach who knows the framework inside and out, plus standalone tools for every practice you learned during your week.
+If you've completed the Hoffman Process, this plugin gives you a deeply personalized integration companion — a coach who knows the framework inside and out, plus standalone tools for every practice you learned during your week.
 
 ## What's Included
 
@@ -10,25 +10,25 @@ If you've completed the Hoffman Process, these skills give you a deeply personal
 
 | Skill | Trigger | What it does |
 |-------|---------|-------------|
-| `hoffman-coach` | Emotional patterns, relationships, growth | Orchestrator — knows you deeply, suggests the right tool at the right moment, maintains session memory |
-| `hoffman-recycling` | "I'm stuck in a pattern" | Full 12-step Embodied Recycling practice |
-| `hoffman-precycling` | "I can feel it coming" | Quick pattern interruption before it plays out |
-| `hoffman-quadrinity` | "Check in with myself" | Guided check-in with Body, Emotional Child, Intellect, Spiritual Self |
-| `hoffman-transference` | "I'm reacting to someone" | Negative Transference Exploration worksheet |
-| `hoffman-vicious-cycle` | "I keep ending up in the same place" | Map pattern chains and find the exit ramp |
-| `hoffman-morning` | "Morning practice" | Personalized morning grounding practice |
-| `hoffman-evening` | "Evening practice" | Day review, pattern awareness, gratitude |
-| `hoffman-gratitude` | "Appreciation practice" | From surface gratitude to embodied appreciation |
-| `hoffman-self-compassion` | "I'm being hard on myself" | Kristin Neff's 3 components + Hoffman deepening |
-| `hoffman-compassion` | "I'm judging someone" | Compassion & forgiveness for others |
-| `hoffman-new-ways` | "What would my spiritual self do?" | Explore Right Road alternatives to patterns |
-| `hoffman-dark-side-stomp` | "I need to let this out" | Embodied expression — move energy through the body |
-| `hoffman-hand-on-heart` | "I need to ground" | Quick centering and self-soothing |
-| `hoffman-pattern-trace` | "Where does this come from?" | Deep pattern archaeology — trace to childhood origin |
-| `hoffman-spiritual-teacher` | "I need guidance" | Message from your High Spiritual Teacher / Spiritual Self |
-| `hoffman-truce` | "My parts are in conflict" | Truce Agreement renewal between Quadrinity parts |
-| `hoffman-left-road` | "Am I doing this right?" | Post-process pitfall awareness |
-| `hoffman-family-roles` | "I'm playing a role" | Explore childhood roles still active in your life |
+| `/hoffman:coach` | Emotional patterns, relationships, growth | Orchestrator — knows you deeply, suggests the right tool at the right moment, maintains session memory |
+| `/hoffman:recycling` | "I'm stuck in a pattern" | Full 12-step Embodied Recycling practice |
+| `/hoffman:precycling` | "I can feel it coming" | Quick pattern interruption before it plays out |
+| `/hoffman:quadrinity` | "Check in with myself" | Guided check-in with Body, Emotional Child, Intellect, Spiritual Self |
+| `/hoffman:transference` | "I'm reacting to someone" | Negative Transference Exploration worksheet |
+| `/hoffman:vicious-cycle` | "I keep ending up in the same place" | Map pattern chains and find the exit ramp |
+| `/hoffman:morning` | "Morning practice" | Personalized morning grounding practice |
+| `/hoffman:evening` | "Evening practice" | Day review, pattern awareness, gratitude |
+| `/hoffman:gratitude` | "Appreciation practice" | From surface gratitude to embodied appreciation |
+| `/hoffman:self-compassion` | "I'm being hard on myself" | Kristin Neff's 3 components + Hoffman deepening |
+| `/hoffman:compassion` | "I'm judging someone" | Compassion & forgiveness for others |
+| `/hoffman:new-ways` | "What would my spiritual self do?" | Explore Right Road alternatives to patterns |
+| `/hoffman:dark-side-stomp` | "I need to let this out" | Embodied expression — move energy through the body |
+| `/hoffman:hand-on-heart` | "I need to ground" | Quick centering and self-soothing |
+| `/hoffman:pattern-trace` | "Where does this come from?" | Deep pattern archaeology — trace to childhood origin |
+| `/hoffman:spiritual-teacher` | "I need guidance" | Message from your High Spiritual Teacher / Spiritual Self |
+| `/hoffman:truce` | "My parts are in conflict" | Truce Agreement renewal between Quadrinity parts |
+| `/hoffman:left-road` | "Am I doing this right?" | Post-process pitfall awareness |
+| `/hoffman:family-roles` | "I'm playing a role" | Explore childhood roles still active in your life |
 
 ### Reference Materials
 
@@ -85,14 +85,17 @@ Your profile should include:
 - Spiritual Self qualities
 - Truce Agreement
 
-### 3. Install skills
-
-Symlink each skill into Claude's skills directory:
+### 3. Install plugin
 
 ```bash
-for skill in ~/Dev-personal/Hoffman/skills/hoffman-*/; do
-  ln -sf "$skill" ~/.claude/skills/$(basename "$skill")
-done
+./install-code.sh
+```
+
+This symlinks the plugin into `~/.claude/plugins/hoffman`. Alternatively, install directly:
+
+```bash
+mkdir -p ~/.claude/plugins
+ln -s ~/Dev-personal/Hoffman ~/.claude/plugins/hoffman
 ```
 
 ### 4. Verify
@@ -100,9 +103,9 @@ done
 Start a new Claude Code session and try:
 
 ```
-/hoffman-coach
-/hoffman-recycling
-/hoffman-morning
+/hoffman:coach
+/hoffman:recycling
+/hoffman:morning
 ```
 
 ## Usage
@@ -115,15 +118,28 @@ Just talk to Claude about what's going on. The coach skill triggers on emotional
 
 Invoke any tool directly:
 
-- "I want to do a recycling practice"
-- "Let's do a quadrinity check-in"
-- "I'm triggered by someone — help me explore the transference"
-- "Morning practice"
-- "Hand on heart — I need to ground"
+```
+/hoffman:recycling     — full pattern transformation
+/hoffman:precycling    — quick in-the-moment interruption
+/hoffman:quadrinity    — check in with all four parts
+/hoffman:hand-on-heart — ground me right now
+/hoffman:morning       — start my day
+```
+
+Or just describe what you need — Claude will pick the right skill based on context.
 
 ### Memory and continuity
 
 The coach writes session notes to `personal/sessions/` and updates `personal/integration-journal.md` after meaningful exchanges. This means continuity across conversations — it picks up where you left off.
+
+### Cowork installation
+
+For Cowork (claude.ai), build and install `.skill` packages:
+
+```bash
+./build-skills.sh
+# Then: Settings → Skills → Install from file → select each .skill from dist/
+```
 
 ## For Hoffman Graduates
 
