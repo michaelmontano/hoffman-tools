@@ -1,0 +1,22 @@
+# Personal data — never share
+personal/
+
+# Source photos — too large for git, and private
+hoffman-prep-mm/
+hoffman-process-mm/
+
+# Old skill version (root level only)
+/hoffman-coach/
+
+# Generated practice files
+morning-practice-*.md
+evening-practice-*.md
+
+# Summaries HTML
+hoffman-summaries.html
+
+# Packaged skills
+*.skill
+
+# macOS
+.DS_Store
