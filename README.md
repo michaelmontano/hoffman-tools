@@ -53,7 +53,7 @@ When you share this repo with a friend who's done Hoffman, they bring their own 
 ### 1. Clone
 
 ```bash
-git clone https://github.com/mikemontano/hoffman-tools.git ~/Dev-personal/Hoffman
+git clone https://github.com/michaelmontano/hoffman-tools.git ~/Dev-personal/Hoffman
 ```
 
 ### 2. Create your personal profile
