@@ -15,7 +15,8 @@ evening-practice-*.md
 # Summaries HTML
 hoffman-summaries.html
 
-# Packaged skills
+# Built skill packages
+dist/
 *.skill
 
 # macOS
